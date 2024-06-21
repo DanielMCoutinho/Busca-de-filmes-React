@@ -28,7 +28,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url(colagem-de-fundo-de-filme.jpg);
+  background-image: url('colagem-de-fundo-de-filme.jpg');
+  background-size: cover; /* Faz com que a imagem cubra toda a área do elemento */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Faz com que a imagem de fundo fique fixa durante a rolagem */
 }
 
 h1 {
@@ -67,3 +71,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
